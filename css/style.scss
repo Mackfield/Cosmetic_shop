@@ -1,1 +1,73 @@
 @import "nullstyle.scss";
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Montserrat:wght@400;500;600&display=swap');
+body {
+  font-family: Montserrat, sans-serif;
+  background: #F2F2F2;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+._container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 900px;
+
+}
+.menu__list {
+  display: flex;
+  margin-top: 50px;
+}
+.menu__item {
+  margin: 0 10px;
+}
+.menu__item:last-child {
+  margin-right: -10px;
+}
+.menu__item:first-child {
+  margin-left:-10px
+}
+.menu__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.94px;
+}
+.header__main {
+  display:flex;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0 0 0 55px;
+
+}
+
+
+.header-search {
+  display: flex;
+  margin: 0 0 0 163px;
+}
+.header-search__form {
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+  }
+.header-search__input { // try : after to fix search icon
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+  outline: none;
+  width: 454px;
+}
+.header-search__btn {
+
+}
+.header-main_contacts {
+  display:flex
+}
+// finish styles, do popup
+
