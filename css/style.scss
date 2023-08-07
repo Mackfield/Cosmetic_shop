@@ -2,6 +2,7 @@
 // import fonts
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Montserrat:wght@400;500;600&display=swap');
+
 body {
   font-family: Montserrat, sans-serif;
   background: #F2F2F2;
@@ -68,6 +69,10 @@ body {
 }
 .header-main_contacts {
   display:flex
+}
+.header-search__lens {
+  font-size: 20px;
+  color: black;
 }
 // finish styles, do popup
 
