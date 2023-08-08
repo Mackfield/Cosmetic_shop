@@ -53,7 +53,7 @@ body {
 .header-search__form {
   display: flex;
   align-items: center;
- justify-content: space-between;
+  justify-content: space-between;
   }
 .header-search__input { // try : after to fix search icon
   display: flex;
@@ -62,7 +62,7 @@ body {
   padding: 20px;
   border-radius: 20px;
   outline: none;
-  width: 454px;
+
 }
 .header-search__btn {
 

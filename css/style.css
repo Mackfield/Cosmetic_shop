@@ -33,6 +33,7 @@ html, body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-weight: 400;
 }
 
 input, button, textarea {
@@ -88,9 +89,12 @@ body {
 ._container {
   padding: 0 15px;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1780px;
 }
+.header {
+  display:flex;
 
+}
 .menu__list {
   display: flex;
   margin-top: 50px;
@@ -112,54 +116,74 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21.94px;
+  color: black;
 }
-
+.menu__link_gray {
+  color: #272727;
+}
 .header__main {
   display: flex;
   align-items: center;
   padding: 0 15px;
-  margin: 0 0 0 55px;
+  margin: 40px 0 0 55px;
 }
-
 .header-search {
-  display: flex;
-  margin: 0 0 0 163px;
+  width: 750px;
 }
-
 .header-search__form {
   display: flex;
   align-items: center;
+  padding: 19px 20px 18px 20px ;
+  border-radius: 20px;
+  outline: none;
+  background: #EFE1E1;
   justify-content: space-between;
+
 }
 
 .header-search__input {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  border-radius: 20px;
-  outline: none;
   background: #EFE1E1;
+  color: #272727;
+  font-size: 18px;
+  line-height: 21.94px;
 }
-.header-search__btn {
 
-}
-.header-search__btn {
-  position: relative;
-}
-.header-search__btn::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-image: url('../img/search.svg');
-  background-size: 28px 28px;
+.header-search__cashier {
+  margin-left: 22px;
   width: 28px;
-  height: 28px;
-
+  height: 25px;
 }
+
 .header-main_contacts {
   display: flex;
+  margin-left:163px;
+  flex-wrap:wrap;
 }
+.header-main__telephone {
+  display: flex;
+  align-items: center;
+}
+.header-main__icon {
+  height: 24px;
+  width: 24px;
+}
+.header-main__telephone-number {
+  margin-left: 24px;
+  color:black;
+  line-height: 21.94px;
+  font-size: 18px;
 
+}
+.header-main_whatsup {
+  margin-left: 23px;
+}
+.header-main_whatsup__icon {
+  height: 27px;
+  width: 27px;
+}
+.header-main__vk {
+  margin-left: 20px;
+}
 /*# sourceMappingURL=style.css.map */
