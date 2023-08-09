@@ -89,46 +89,59 @@ body {
 ._container {
   padding: 0 15px;
   margin: 0 auto;
-  max-width: 1780px;
+  width: 1775px;
+
 }
 .header {
   display:flex;
-
+  flex-wrap:wrap;
+}
+.header__container {
+  padding: 0 15px;
+  max-width: 950px;
+  margin: 0 auto;
 }
 .menu__list {
   display: flex;
-  margin-top: 50px;
+  margin: 50px 0 0 160px;
+  gap: 10px;
 }
 
 .menu__item {
-  margin: 0 10px;
+
 }
 
 .menu__item:last-child {
-  margin-right: -10px;
+
 }
 
 .menu__item:first-child {
-  margin-left: -10px;
+
 }
 
 .menu__link {
   font-weight: 400;
   font-size: 18px;
   line-height: 21.94px;
-  color: black;
+  color: #000000;
+
+}
+.menu__link_box-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .menu__link_gray {
-  color: #272727;
+  color: #000000B2;
+
 }
 .header__main {
   display: flex;
   align-items: center;
-  padding: 0 15px;
-  margin: 40px 0 0 55px;
+  margin: 40px 0 0 160px;
+  min-width: 100%;
 }
 .header-search {
-  width: 750px;
+  display: flex;
+  min-width: 700px;
 }
 .header-search__form {
   display: flex;
@@ -138,7 +151,7 @@ body {
   outline: none;
   background: #EFE1E1;
   justify-content: space-between;
-
+  flex: 1 0 80%;
 }
 
 .header-search__input {
@@ -148,6 +161,7 @@ body {
   color: #272727;
   font-size: 18px;
   line-height: 21.94px;
+
 }
 
 .header-search__cashier {
@@ -155,11 +169,14 @@ body {
   width: 28px;
   height: 25px;
 }
-
+.header-main__container {
+  display: flex;
+  justify-content: space-between;
+}
 .header-main_contacts {
   display: flex;
-  margin-left:163px;
   flex-wrap:wrap;
+  align-items: center;
 }
 .header-main__telephone {
   display: flex;
@@ -177,7 +194,7 @@ body {
 
 }
 .header-main_whatsup {
-  margin-left: 23px;
+  margin-left: 20px;
 }
 .header-main_whatsup__icon {
   height: 27px;
@@ -186,4 +203,8 @@ body {
 .header-main__vk {
   margin-left: 20px;
 }
+.header-main__logo {
+
+}
+
 /*# sourceMappingURL=style.css.map */
